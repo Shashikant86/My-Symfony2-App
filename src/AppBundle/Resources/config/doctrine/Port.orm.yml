@@ -1,0 +1,20 @@
+AppBundle\Entity\Port:
+    type: entity
+    table: null
+    repositoryClass: AppBundle\Entity\PortRepository
+    id:
+        id:
+            type: integer
+            id: true
+            generator:
+                strategy: AUTO
+    fields:
+        name:
+            type: string
+            length: '255'
+        age:
+            type: integer
+        city:
+            type: string
+            length: '255'
+    lifecycleCallbacks: {  }

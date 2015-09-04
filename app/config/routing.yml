@@ -1,0 +1,29 @@
+app:
+    resource: "@AppBundle/Controller/"
+    type:     annotation
+
+
+index:
+    path:     /main
+    defaults: { _controller: AppBundle:Main:index }
+
+contact:
+    path:     /contact
+    defaults: { _controller: AppBundle:Contact:show }
+
+api:
+    path:     /api/me
+    defaults: { _controller: AppBundle:Main:apiMe }
+
+hello:
+    path:     /hello
+    defaults: { _controller: AppBundle:Hello:index }
+
+database:
+    path:     /database
+    defaults: { _controller: AppBundle:Default:show }
+
+create:
+
+    path:     /create
+    defaults: { _controller: AppBundle:Default:create }
