@@ -1,7 +1,7 @@
 <?php
 
 namespace AppBundle\Controller;
-use AppBundle\Entity\Port;
+use AppBundle\Entity\Profile;
 
 use Symfony\Bundle\FrameworkBundle\Controller\Controller;
 use Sensio\Bundle\FrameworkExtraBundle\Configuration\Route;
@@ -12,7 +12,7 @@ class DefaultController extends Controller
 {
     public function createAction()
     {
-      $data = new Port();
+      $data = new Profile();
       $data->setName("Shashi");
       $data->setAge("27");
       $data->setCity("London");

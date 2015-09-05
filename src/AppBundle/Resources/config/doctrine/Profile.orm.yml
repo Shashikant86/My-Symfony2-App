@@ -1,7 +1,7 @@
-AppBundle\Entity\Port:
+AppBundle\Entity\Profile:
     type: entity
     table: null
-    repositoryClass: AppBundle\Entity\PortRepository
+    repositoryClass: AppBundle\Entity\ProfileRepository
     id:
         id:
             type: integer
