@@ -1,4 +1,6 @@
-My_Symfony2_App
+Demo Symfony app.
 ===============
 
-A Symfony project created on September 4, 2015, 6:46 pm.
+This is my demo symfony app. Covering all aspects of Symfony from learnig perspective.
+
+Adding the things to this repo by going through Symfony2 Book
