@@ -1,0 +1,19 @@
+AppBundle\Entity\Category:
+    type: entity
+    table: null
+    id:
+        id:
+            type: integer
+            id: true
+            generator:
+                strategy: AUTO
+    fields:
+        name:
+            type: string
+            length: '255'
+    lifecycleCallbacks: {  }
+
+    oneToMany:
+        profiles:
+            targetEntity: Profile
+            mappedBy: category

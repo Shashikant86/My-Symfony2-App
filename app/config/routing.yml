@@ -21,9 +21,19 @@ hello:
 
 database:
     path:     /database
-    defaults: { _controller: AppBundle:Default:show }
+    defaults: { _controller: AppBundle:Default:update }
 
 create:
 
     path:     /create
     defaults: { _controller: AppBundle:Default:create }
+
+custom:
+
+    path:     /custom
+    defaults: { _controller: AppBundle:Default:show }
+
+map:
+
+    path:     /mapping
+    defaults: { _controller: AppBundle:Default:createProfile }

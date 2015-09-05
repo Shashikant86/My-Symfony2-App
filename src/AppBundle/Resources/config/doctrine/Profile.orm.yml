@@ -18,3 +18,11 @@ AppBundle\Entity\Profile:
             type: string
             length: '255'
     lifecycleCallbacks: {  }
+
+    manyToOne:
+         category:
+             targetEntity: Category
+             inversedBy: profiles
+             joinColumn:
+                name: category_id
+                referencedColumnName: id

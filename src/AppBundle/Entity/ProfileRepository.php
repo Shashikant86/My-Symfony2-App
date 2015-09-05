@@ -12,4 +12,13 @@ use Doctrine\ORM\EntityRepository;
  */
 class ProfileRepository extends EntityRepository
 {
+
+  public function findAllOrderedByName()
+    {
+        return $this->getEntityManager()
+            ->createQuery(
+                'SELECT p FROM AppBundle:Profile p ORDER BY p.name ASC'
+            )
+            ->getResult();
+    }
 }
