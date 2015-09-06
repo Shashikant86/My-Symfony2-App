@@ -4,7 +4,7 @@ app:
 
 
 index:
-    path:     /main
+    path:     /
     defaults: { _controller: AppBundle:Main:index }
 
 contact:
