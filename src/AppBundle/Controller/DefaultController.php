@@ -33,8 +33,8 @@ class DefaultController extends Controller
         ->find($id);
 
     $categoryName = $product->getCategory()->getName();
-    print_r($categoryName);
-    die;
+    // print_r($categoryName);
+    // die;
     // $category = $this->getDoctrine()
     //     ->getRepository('AppBundle:Category')
     //     ->find($id);
